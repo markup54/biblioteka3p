@@ -16,7 +16,9 @@ public class Czytelnik extends Osoba{
     public int getNrCzytelnika() {
         return nrCzytelnika;
     }
-
+public void dodajKsiazke(Ksiazka ksiazka){
+        wypozyczoneKsiazki.add(ksiazka);
+}
     public void setNrCzytelnika(int nrCzytelnika) {
         this.nrCzytelnika = nrCzytelnika;
     }

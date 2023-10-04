@@ -1,6 +1,6 @@
 import java.util.Date;
 
-public class Osoba {
+abstract public class Osoba {
     private String imie;
     private Date dataUr;
     private String nazwisko;
